@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container bg-black flex">
+        <div class="left ">
+            <div class="close">
+                <img class="invert" width="40px" src="/svg/close.svg" alt="">
+            </div>
+            <div class="home bg-gray  rounded m-1  p-1">
+                <div class="logo"><img width="120px" src="https://cdn.worldvectorlogo.com/logos/spotify-logo.svg"
+                        alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="/svg/home.svg" alt="home">home</li>
+                    <li><img class="invert" src="/svg/search.svg" alt="search">search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="/svg/library.svg" alt="">
+                    <h2>your library</h2>
+
+                </div>
+                <div class="song-list">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <div<a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"> Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right  bg-gray rounded  ">
+            <div class="header">
+
+                <div class="nav">
+                    <div class="hamburgercontainer">
+                        <img class="invert hamburger" width="30px" src="/svg/hamburger.svg" alt="">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">sign up</button>
+                    <button class="loginbtn">log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h1>Popular artist</h1>
+                <div class="card-container">
+
+                    <div data-folder="arijit" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="">
+                        <h2>Arijit Singh</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="anup" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174a837a6cb82dd949d5e1f9b53" alt="">
+                        <h2>Anuv Jain</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="Dilijit" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174fc043bea91ac91c222d235c9" alt="">
+                        <h2>Dilijit Dosanjh</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="Badshah" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051747b386b1320742bd6686854e7" alt="">
+                        <h2>Badshah</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="Shreya" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab6761610000517459303d54ce789210e745e1a9" alt="">
+                        <h2>Shreya Goshal</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="honey" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f" alt="">
+                        <h2>honey singh</h2>
+                        <p>Aetist</p>
+                    </div>
+
+                    <div data-folder="JuiceWRLD" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab6761610000517401ab50f1479f24a42804efd8" alt="">
+                        <h2>Juice WORLD</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="Weekend" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae" alt="">
+                        <h2>The Weeknd</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174c5911f22814f270d5004ae53" alt="">
+                        <h2>Armaan malik</h2>
+                        <p>Aetist</p>
+                    </div>
+                    <div data-folder="Justin" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36" alt="">
+                        <h2>Justin Bieber</h2>
+                        <p>Aetist</p>
+                    </div>
+                </div>
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songbtn">
+                            <img width="35px" id="previous" src="/svg/prevsong.svg">
+                            <img width="35px" id="play" src="/svg/play.svg" alt="">
+                            <img width="35px" id="next" src="/svg/nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img width="25px" src="/svg/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <script src="script.js"></script>
+</body>
+
+</html>
