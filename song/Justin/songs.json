@@ -1,5 +1,8 @@
+
 {
     "title": "No copyright song",
     "description": "Song for you",
-    "song": ["Ayat.mp3","Alvida.mp3","baten.mp3"]
+     "songs": ["Baby-2.mp3",
+    "Baby.mp3",
+   "new-life.mp3"]
 }
