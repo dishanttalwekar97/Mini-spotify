@@ -1,0 +1,39 @@
+# Node modules or dependencies (if any)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.log
+
+# VS Code settings
+.vscode/
+
+# Mac or Linux specific
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Windows system folders
+$RECYCLE.BIN/
+AppData/
+Local Settings/
+Application Data/
+Cookies/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Python files (if you have Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore any zip or package backups
+*.zip
+*.tar.gz
+*.rar
