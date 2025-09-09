@@ -2,6 +2,6 @@
 {
     "title": "No copyright song",
     "description": "Song for you",
-     "songs": ["All Girl Are The Same.mp3",
-    "The Party Never Ends.mp3"]
+     "songs": ["song1.mp3",
+    "song2.mp3","Robbery.mp3"]
 }
